@@ -1,0 +1,130 @@
+html {
+  font-family: 'Arial';
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    li {
+      display: flex;
+      margin-top: 2px;
+      padding-left: 15px;
+
+      a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.login-btn {
+  background-color: #4485f6;
+  color: white;
+  font-weight: bold;
+  padding: 7px 14px;
+  border: 1px solid #4485f6;
+  margin-right: 0.4em;
+  font-size: 13px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  .search-bar {
+    input {
+      line-height: 37px;
+      height: 40px;
+      width: 560px;
+      border-radius: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.14);
+    }
+
+    input:hover {
+      box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        margin: 2em 6px;
+        height: 36px;
+        font-size: 14px;
+        min-width: 54px;
+        border: none;
+        background-color: #f2f2f2;
+        color: rgba(0, 0, 0, 0.7);
+        padding: 0 1.5em;
+      }
+    }
+  }
+}
+
+img {
+  height: 92px;
+  width: 272px;
+  margin-bottom: 1.8em;
+  margin-top: 7.8em;
+}
+
+p {
+  font-size: 13px;
+  a {
+    text-decoration: none;
+    margin: 0 2px;
+  }
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  .upper-row {
+    height: 41px;
+    p {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 15px;
+      margin-left: 1.5em;
+    }
+  }
+
+  .bottom-row {
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      list-style-type: none;
+      display: flex;
+      a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 13.5px;
+        font-family: 'Arial';
+      }
+      li {
+        margin: 0 0.9em;
+      }
+      li:first-child {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+  }
+}
